@@ -183,19 +183,19 @@ async def dyno_usage(dyno):
             AppMinutes = math.floor(AppQuotaUsed % 60)
 
             await dyno.edit(
-                f"𝗜𝗡𝗙𝗢 𝗞𝗘𝗞𝗨𝗔𝗧𝗔𝗡!!\n\n"
+                f"INFO DYNO USAGE!!\n\n"
                 "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-                "┣[•𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔𝗔𝗡 𝗦𝗔𝗔𝗧 𝗜𝗡𝗜 : \n"
-                f"┣[•   ▸ {AppHours} ᴊᴀᴍ - {AppMinutes} ᴍᴇɴɪᴛ. \n"
-                f"┣[•   ▸ ᴘʀᴇꜱᴇɴᴛᴀꜱᴇ : {AppPercentage}% \n"
+                "┣[•🚀PENGGUNAAN SAAT INI!!  \n"
+                f"┣[•   📱▸ {AppHours} Jam - {AppMinutes} Menit. \n"
+                f"┣[•   📱▸ PRESENTASE : {AppPercentage}% \n"
                 "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
                 "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
                 "╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
-                "┣[•𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔𝗔𝗡 𝗕𝗨𝗟𝗔𝗡 𝗜𝗡𝗜 : \n"
-                f"┣[•  ▸ {hours} ᴊᴀᴍ - {minutes} ᴍᴇɴɪᴛ. \n"
-                f"┣[•  ▸ ᴘʀᴇꜱᴇɴᴛᴀꜱᴇ : {percentage}%. \n"
+                "┣[•🚀PENGGUNAAN BULAN INI! \n"
+                f"┣[•  📱▸ {hours} Jam - {minutes} Menit. \n"
+                f"┣[•  📱▸ Presentase : {percentage}%. \n"
                 "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
-                f"• 𝗣𝗘𝗠𝗜𝗟𝗜𝗞  : {ALIVE_NAME} \n"
+                f"•🧸 OWNER : {ALIVE_NAME} \n"
             )
             await asyncio.sleep(20)
             await event.delete()
