@@ -57,16 +57,16 @@ async def redis(pong):
     await pong.edit("__Bentar...__")
     await pong.edit("__Bentar....__")
     await pong.edit("__Nah!!__")
-    await pong.edit("💫")
+    await pong.edit("🍑")
     await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n"
-                    f"**        ✨ 𝗥 𝗔 𝗠 - 𝗨 𝗕 𝗢 𝗧 ✨** \n"
+                    f"**        ✨ SKY-UBOT ✨** \n"
                     f"**  ✠╼━━━━━━❖━━━━━━━✠** \n"
-                    f"**        • sɪɢɴᴀʟ  :** `%sms` \n"
-                    f"**        • ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n"
-                    f"**        • ʙᴏᴛ ᴠᴇʀ  :** `7.0` \n"
+                    f"**        • Signal  :** `%sms` \n"
+                    f"**        • Lord   :** `{ALIVE_NAME}` \n"
+                    f"**        • Uptime  :** `7.0` \n"
                     f"**╰━━━━━━━━━━━━━━━━━╯** \n" % (duration))
 
 
@@ -127,12 +127,12 @@ async def redis(pong):
     await pong.edit("__Pong..__")
     await pong.edit("__Ping...__")
     await pong.edit("__Pong....__")
-    await pong.edit("🌟")
+    await pong.edit("😁")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-                    f"**            ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐**\n"
+                    f"**            🔰SKY-UBOT🔰**\n"
                     f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
                     f"** •  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
@@ -167,18 +167,18 @@ async def speedtst(spd):
     result = test.results.dict()
 
     await spd.edit("**Kecepatan Jaringan:\n**"
-                   "✧ **Dimulai Pada :** "
+                   "✧ **💸Dimulai Pada :** "
                    f"`{result['timestamp']}` \n"
                    f" **━━━━━━━━━━━━━━━━━**\n\n"
-                   "✧ **Download:** "
+                   "✧ **🛩️Download:** "
                    f"`{speed_convert(result['download'])}` \n"
-                   "✧ **Upload:** "
+                   "✧ **♻️Upload:** "
                    f"`{speed_convert(result['upload'])}` \n"
-                   "✧ **Signal:** "
+                   "✧ **📊Signal:** "
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐")
+                   "✧ **🚀BOT:** 😎SKY-UBOT😎")
 
 
 def speed_convert(size):
