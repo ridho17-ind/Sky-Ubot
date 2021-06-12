@@ -181,12 +181,12 @@ async def sedNinjaToggle(event):
     global regexNinja
     if event.pattern_match.group(1) == "on":
         regexNinja = True
-        await event.edit("`Berhasil Mengaktifkan Mode Regex Ninja.`")
+        await event.edit("`Berhasil Mengaktifkan Mode Regex Ninja😎.`")
         await sleep(1)
         await event.delete()
     elif event.pattern_match.group(1) == "off":
         regexNinja = False
-        await event.edit("`Berhasil Menonaktifkan Mode Regex Ninja.`")
+        await event.edit("`Berhasil Menonaktifkan Mode Regex Ninja😎.`")
         await sleep(1)
         await event.delete()
 
@@ -200,7 +200,7 @@ async def info(event):
         await event.edit(caption, parse_mode="html")
     except Exception as e:
         print("Exception:", e)
-        await event.edit("`Terjadi Kesalah Yang Tidak Terduga.`")
+        await event.edit("`Terjadi Kesalah Yang Tidak Terduga Bangke.`")
     return
 
 
