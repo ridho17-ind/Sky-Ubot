@@ -85,7 +85,7 @@ async def quotess(qotli):
 async def quote_search(event):
     if event.fwd_from:
         return
-    await event.edit("`Sedang Memproses...`")
+    await event.edit("`Sedang Memproses Stiker, Tunggu Tolol...`")
     search_string = event.pattern_match.group(1)
     input_url = "https://bots.shrimadhavuk.me/Telegram/GoodReadsQuotesBot/?q={}".format(
         search_string)
