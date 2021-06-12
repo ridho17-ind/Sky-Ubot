@@ -29,9 +29,11 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.semangat(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(3)
+    sleep(2)
     await typew.edit("`Apapun Yang Terjadi`")
     sleep(3)
+    await typew.edit("`Igat Kawan`")
+    sleep(2)
     await typew.edit("`Tetaplah Bernapas`")
     sleep(1)
     await typew.edit("`Dan Selalu Bersyukur`")
