@@ -67,7 +67,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             )
             return repo.__del__()
         await event.edit('`⭐SKY-USERBOT⭐:'
-                         '\nSedang Dalam proses Update ⭐SKY-USERBOT⭐, Mohon Menunggu 7-8 Menit`'
+                         '\nSedang Dalam proses Update 💸SKY-USERBOT💸, Mohon Menunggu 7-8 Menit`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -188,13 +188,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n**📱 SKY-USERBOT 📱 Sudah Versi Terbaru**\n')
+            f'\n**🔰SKY-USERBOT🔰 Sudah Versi Terbaru**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**Pembaruan Untuk ⭐SKY-USERBOT⭐ [SKY-UBOT]:\n\n✨Pembaruan:**\n`{changelog}`'
+        changelog_str = f'**Pembaruan Untuk 🐉SKY-USERBOT🐉 [SKY-UBOT]:\n\n✨Pembaruan:**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -208,7 +208,7 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update 🧸SKY-USERBOT🧸**\n >`.update one`\n >`.update all`\n\n__Untuk Meng Update Fitur Terbaru Dari 📱SKY-USERBOT 📱.__')
+        return await event.respond('**Perintah Untuk Update 🧸SKY-UBOT🧸**\n >`.update one`\n >`.update all`\n\n__Untuk Meng Update Fitur Terbaru Dari 🐍SKY-USERBOT🐍.__')
 
     if force_update:
         await event.edit(
