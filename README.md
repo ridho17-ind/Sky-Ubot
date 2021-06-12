@@ -23,12 +23,12 @@
 
 ## JOIN DULU TOT!!:
 
-<a href="https://t.me/ramubotinfo"><img src="https://img.shields.io/badge/Channel-%20RAM UBOT-black.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Join-TEMAN%20RANDOM-purple.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/gabutseger"><img src="https://img.shields.io/badge/Channel-%20Sky-Ubot-black.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/kinguserbotsupport"><img src="https://img.shields.io/badge/Join-King%20Userbot-purple.svg?style=for-the-badge&logo=Telegram"></a>
 ##
 
 # JANGAN BINGUNG BUAT DEPLOY!
-[![Deploy](https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg)](https://t.me/ootspambot)
+[![Deploy](https://telegra.ph/file/bb567d30c4d4ee8ec046a.jpg)](https://t.me/botanjing)
 
 
 <h3 align="center">REPO SKY-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
@@ -40,8 +40,8 @@
 ## Bagaimana Cara Deploy?
 
 
-* **VIDEO TUTORIAL DEPLOY!** 🔧
-[<img src=https://telegra.ph/file/37c7a54f72b2be24d6793.jpg>](https://t.me/UserbotChannel/36)
+* **CHANNEL** 🔧
+[<img src=https://telegra.ph/file/0b60bf431c1581287addb.jpg>](https://t.me/gabutseger/36)
 
 ### AMBIL STRING DI BAWAH INI:
 
