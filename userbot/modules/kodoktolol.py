@@ -13,7 +13,7 @@ from userbot import CMD_HELP, bot
 
 @register(outgoing=True, pattern=r"^\.prg (.*)")
 async def honkasays(event):
-    await event.edit("`Sedang Memprosess!!!`")
+    await event.edit("`Sedang Memproses Sabar Ya Bangke!!!`")
     text = event.pattern_match.group(1)
     if not text:
         return await event.edit("`Beri Aku Bebeberapa Teks, Contoh .prog test`")
