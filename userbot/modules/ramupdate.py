@@ -67,7 +67,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             )
             return repo.__del__()
         await event.edit('`⭐SKY-USERBOT⭐:'
-                         '\nSedang Dalam proses Update 💸SKY-USERBOT💸, Mohon Menunggu 7-8 Menit`'
+                         '\nSedang Dalam proses Update SKY-USERBOT, Mohon Menunggu 7-8 Menit`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -208,7 +208,7 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update 🧸SKY-UBOT🧸**\n >`.update one`\n >`.update all`\n\n__Untuk Meng Update Fitur Terbaru Dari 🐍SKY-USERBOT🐍.__')
+        return await event.respond('**Perintah Untuk Update 🧸SKY-UBOT🧸**\n >`.update one`\n >`.update all`\n\n__Untuk Meng Update Fitur Terbaru Dari SKY-USERBOT.__')
 
     if force_update:
         await event.edit(
