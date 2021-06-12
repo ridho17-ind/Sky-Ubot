@@ -1,5 +1,5 @@
 
-@register(outgoing=True, pattern='^.sky(?: |$)(.*)')
+@register(outgoing=True, pattern='^.geez(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Afreal Peler☑️**")
