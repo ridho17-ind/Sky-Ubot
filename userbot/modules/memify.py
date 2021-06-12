@@ -26,11 +26,11 @@ async def mim(event):
     reply_message.sender
     await bot.download_file(reply_message.media)
     if reply_message.sender.bot:
-        await event.edit("```Balas ke pesan pengguna yang sebenarnya.```")
+        await event.edit("```Balas ke pesan pengguna yang sebenarnya bangke.```")
         return
     else:
         await event.edit(
-            "```Gua edit dulu Bentar, emmm... ```"
+            "```Gua edit dulu Bentar, Emmm sabar bangke... ```"
         )
         await asyncio.sleep(5)
         text = event.pattern_match.group(1)
@@ -182,11 +182,11 @@ async def mim(event):
     reply_message.sender
     await bot.download_file(reply_message.media)
     if reply_message.sender.bot:
-        await event.edit("```Balas Ke Pesan Pengguna Yang Sebenarnya.```")
+        await event.edit("```Balas Ke Pesan Pengguna Yang Sebenarnya Bangke.```")
         return
     else:
         await event.edit(
-            "```Gua Edit dulu bentar, emm....```"
+            "```Gua Edit dulu bentar, emm sabar bangke....```"
         )
         await asyncio.sleep(5)
         text = event.pattern_match.group(1)
