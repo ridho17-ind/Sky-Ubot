@@ -112,7 +112,7 @@ async def kickme(leave):
                      "──▄▀█▄▄▄─────▄▀█▄▄▄\n"
                      "▄▀──█▄▄──────█─█▄▄\n"
                      "─▄▄▄▀──▀▄───▄▄▄▀──▀▄\n"
-                     "─▀───────▀▀─▀───────▀▀\n`Kabur ajalah ngentot,Awkwokwok..`")
+                     "─▀───────▀▀─▀───────▀▀\n`Kabur ajalah bangke,Awkwokwok..`")
     await leave.client.kick_participant(leave.chat_id, 'me')
 
 
@@ -125,7 +125,7 @@ async def unmute_chat(unm_e):
         await unm_e.edit('`Running on Non-SQL Mode!`')
         return
     unkread(str(unm_e.chat_id))
-    await unm_e.edit("```Berhasil Dibuka, Obrolan Tidak Lagi Dibisukan```")
+    await unm_e.edit("```Berhasil Dibuka, Lain Kali Gausah Nakal Ya Tod```")
     await sleep(2)
     await unm_e.delete()
 
@@ -140,13 +140,13 @@ async def mute_chat(mute_e):
         return
     await mute_e.edit(str(mute_e.chat_id))
     kread(str(mute_e.chat_id))
-    await mute_e.edit("`Ssshssh Anda Telah Membisukan Obrolan !`")
+    await mute_e.edit("`Ssshssh Anda Telah Di Bisukan Karena Bacot Mulu !`")
     await sleep(2)
     await mute_e.delete()
     if BOTLOG:
         await mute_e.client.send_message(
             BOTLOG_CHATID,
-            str(mute_e.chat_id) + " Telah Dibisukan.")
+            str(mute_e.chat_id) + " Berhasil Di Bisukan Wkwkwk Mampus.")
 
 
 @register(incoming=True, disable_errors=True)
