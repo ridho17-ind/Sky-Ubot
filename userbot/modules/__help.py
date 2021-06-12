@@ -39,7 +39,7 @@ async def yardim(event):
             await event.delete()
         else:
             await event.edit(
-                "`Bot tidak berfungsi! Harap setel Token Bot dan Nama Pengguna dengan benar. Modul telah dihentikan.`"
+                "`Bot tidak berfungsi! Harap setel Token Bot dan Nama Pengguna dengan benar bangke. Modul telah dihentikan.`"
             )
     except Exception:
         return await event.edit(
