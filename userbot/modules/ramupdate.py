@@ -194,7 +194,7 @@ async def upstream(event):
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**Pembaruan Untuk 🔰SKY-USERBOT🔰 [{ac_br}]:\n\n✨Pembaruan:**\n`{changelog}`'
+        changelog_str = f'**Pembaruan Untuk ⭐SKY-USERBOT⭐ [SKY-UBOT]:\n\n✨Pembaruan:**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -208,7 +208,7 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update 🔰SKY-USERBOT🔰**\n >`.update one`\n >`.update all`\n\n__Untuk Meng Update Fitur Terbaru Dari 🌟RAM-UBOT🌟.__')
+        return await event.respond('**Perintah Untuk Update 🧸SKY-USERBOT🧸**\n >`.update one`\n >`.update all`\n\n__Untuk Meng Update Fitur Terbaru Dari 📱SKY-USERBOT 📱.__')
 
     if force_update:
         await event.edit(
