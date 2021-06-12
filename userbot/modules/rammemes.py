@@ -35,10 +35,10 @@ async def _(event):
 
         animation_chars = [
 
-            "Kontolll",
-            "Lo anak kontolll",
-            "Dibikin dari kontoll",
-            "Muka lo persis kontolll",
+            "Hai Kawand",
+            "Lu Tau Gak?",
+            "Lu Itu Dibikin Dari Kontol",
+            "Muka lu persis kontolll",
             "Dasar anak NGONTOLLL!!!",
             "Nolep kontoll",
             "Ngerusuh kontoll",
@@ -89,7 +89,7 @@ async def _(event):
     await asyncio.sleep(0.5)
     await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n💥💥💥💥 \n💥💥💥💥 \n")
     await asyncio.sleep(0.5)
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n😵😵😵😵 \n")
+    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \😎😎😎😎 \n")
     await asyncio.sleep(0.5)
     await event.edit("RIP PLOX...")
     await asyncio.sleep(2)
@@ -211,7 +211,7 @@ async def _(event):
             "------------------>",
             "------>;(^。^)ノ",
             "(￣ー￣) MENINGGOY",
-            "**Mati Lu Anjing 😵😵**",
+            "**Mati Lu Anjing Wkwkwk 😵😵**",
         ]
 
         for i in animation_ttl:
@@ -551,7 +551,7 @@ async def _(event):
             "⬜⬜⬜⬜⬜⬜⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬜⬛⬜⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬜⬜⬜⬜⬜⬜",
             "⬛⬛⬛⬛⬛\n⬛⬜⬜⬜⬛\n⬛⬜⬛⬜⬛\n⬛⬜⬜⬜⬛\n⬛⬛⬛⬛⬛",
             "⬜⬜⬜\n⬜⬛⬜\n⬜⬜⬜",
-            "[👉🔴👈](t.me/teman_random)"]
+            "[👉🟢👈](t.me/coba_aja_pencet)"]
 
         for i in animation_ttl:
 
@@ -989,21 +989,21 @@ async def _(event):
 
             "**Promoting User As Admin...**",
             "**Enabling All Permissions To User...**",
-            "**(1) Send Messages: ☑️**",
+            "**(1) Send Messages: 🤭**",
             "**(1) Send Messages: ✅**",
-            "**(2) Send Media: ☑️**",
+            "**(2) Send Media: 😭**",
             "**(2) Send Media: ✅**",
-            "**(3) Send Stickers & GIFs: ☑️**",
+            "**(3) Send Stickers & GIFs: 😳**",
             "**(3) Send Stickers & GIFs: ✅**",
-            "**(4) Send Polls: ☑️**",
+            "**(4) Send Polls: 🥰**",
             "**(4) Send Polls: ✅**",
-            "**(5) Embed Links: ☑️**",
+            "**(5) Embed Links: 😂**",
             "**(5) Embed Links: ✅**",
-            "**(6) Add Users: ☑️**",
+            "**(6) Add Users: 😁**",
             "**(6) Add Users: ✅**",
-            "**(7) Pin Messages: ☑️**",
+            "**(7) Pin Messages: 🤬**",
             "**(7) Pin Messages: ✅**",
-            "**(8) Change Chat Info: ☑️**",
+            "**(8) Change Chat Info: 🧸**",
             "**(8) Change Chat Info: ✅**",
             "**Permission Granted Successfully**",
             "**pRoMooTeD SuCcEsSfUlLy**"
