@@ -76,15 +76,15 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n />❤️ *NIH GUA KASIH BUAT LU!!`")
+                     "`\n />❤️  NIH GUA KASIH BUAT LU!!`")
     sleep(3)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n/>💔  *E GAK DEH,UDH DI KSH GRATIS LU RUSAKIN`")
+                     "`\n/>💔   E GAK DEH,UDH DI KSH GRATIS LU RUSAKIN`")
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💔<\\  *KENTOD LU`")
+                     "`\n💔<\\   KENTOD LU`")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
