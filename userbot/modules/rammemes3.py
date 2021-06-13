@@ -10,11 +10,11 @@ import asyncio
 @register(outgoing=True, pattern="^.hua$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("Aku di ghosting")
+        await e.edit("Gua di ghosting")
         sleep(1)
         await e.edit("😭😭😭")
         sleep(1)
-        await e.edit("Aku Sedihhh")
+        await e.edit("Gua Sedihhh")
         sleep(1)
         await e.edit("Kenapa si")
         sleep(1)
@@ -66,9 +66,9 @@ async def koc(e):
         sleep(1)
         await e.edit("😔😔😔😔")
         sleep(1)
-        await e.edit("MAU GAK JADI PACAR GUA??༼")
+        await e.edit("MAU GAK JADI PACAR GUA??")
         sleep(1)
-        await e.edit("༼ TAPI BOONG TOD!!༽")
+        await e.edit("**TAPI BOONG TOD!!"*")
 
 
 @register(outgoing=True, pattern='^.huh(?: |$)(.*)')
@@ -84,7 +84,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💔<\\  *KENTOD`")
+                     "`\n💔<\\  *KENTOD LU`")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
@@ -118,7 +118,7 @@ async def _(event):
             "😎 \n/\\_,__😫 \n  //    //       \\",
             "😖 \n/\\_,💦_😋  \n  //         //        \\",
             "  😭      ☺️ \n  /|\\   /(👶)\\ \n  /!\\   / \\ ",
-            "`TAMAT 😅`"]
+            "`TAMAT, TIAP HARI BAHAS NGENTOD AMA COLI DOANG😭`"]
 
         for i in animation_ttl:
 
@@ -168,7 +168,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💖<\\  *Tapi Bo'ong`")
+                     "`\n💖<\\  *Tapi Bo'ong Hayuk Pale Pale`")
 # Alpinnnn Gans
 
 
@@ -190,8 +190,8 @@ async def _(event):
         await event.edit(input_str)
 
         animation_chars = [
-            "**OWNER RAM-UBOT ADALAH MANUSIA TERGANTENG DI HATI PEMAKAI NYA, KENALAN DULU SAMA OWNER NYA YUK**"
-            "**RAMADHANI NAMANYA,ORANG NYA BAIK**"
+            "**OWNER SKY-UBOT ADALAH MANUSIA TERGANTENG DI HATI PEMAKAI NYA, KENALAN DULU SAMA OWNER NYA YUK**"
+            "**SKYZO NAMANYA,ORANG NYA BAIK**"
             "**TINGGAL NYA DI TANGERANG, BTW ORANG TANGERANG GANTENG GANTENG DAN THEBEST POKOK NYA AWWHHHH**"
             "**KALO MAU FORK REPONYA,IZIN DULU KE ORANG NYA YA GENGSSS**"
             "**POKOK NYA OWNER NYA THEBEST BANGET SERIUSSSSS**"
