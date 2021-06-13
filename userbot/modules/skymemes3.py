@@ -12,9 +12,9 @@ async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("Gua di ghosting")
         sleep(1)
-        await e.edit("😭😭😭")
+        await e.edit("😭")
         sleep(1)
-        await e.edit("Gua Sedihhh")
+        await e.edit("Gua Sedih Anjing")
         sleep(1)
         await e.edit("Kenapa si")
         sleep(1)
@@ -40,11 +40,11 @@ async def koc(e):
         sleep(1)
         await e.edit("ANJING")
         sleep(1)
-        await e.edit("😡😡😡")
+        await e.edit("🤬")
         sleep(1)
-        await e.edit("🥴🥴🥴")
+        await e.edit("🥺🥺🥺")
         sleep(1)
-        await e.edit("ANJINGGGG༼")
+        await e.edit("ANJINGGGG")
         sleep(1)
         await e.edit("TAIIII")
         sleep(1)
@@ -64,11 +64,11 @@ async def koc(e):
         sleep(1)
         await e.edit("SESEORANG YG MAU NERIMA GUA")
         sleep(1)
-        await e.edit("😔😔😔😔")
+        await e.edit("🙂")
         sleep(1)
         await e.edit("MAU GAK JADI PACAR GUA??")
         sleep(1)
-        await e.edit("**TAPI BOONG TOD!!**")
+        await e.edit("**TAPI BOONG TOD AWIKWOK!!**")
 
 
 @register(outgoing=True, pattern='^.huh(?: |$)(.*)')
@@ -164,11 +164,11 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n />💖 *Ini Buat Kamu`")
+                     "`\n />💖  Ini Buat Kamu`")
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💖<\\  *Tapi Bo'ong Hayuk Pale Pale`")
+                     "`\n💖<\\   Tapi Bo'ong Hayuk`")
 # Alpinnnn Gans
 
 
@@ -191,11 +191,11 @@ async def _(event):
 
         animation_chars = [
             "**OWNER SKY-UBOT ADALAH MANUSIA TERGANTENG DI HATI PEMAKAI NYA, KENALAN DULU SAMA OWNER NYA YUK**"
-            "**SKYZO NAMANYA,ORANG NYA BAIK**"
-            "**TINGGAL NYA DI TANGERANG, BTW ORANG TANGERANG GANTENG GANTENG DAN THEBEST POKOK NYA AWWHHHH**"
+            "** SKYZO NAMANYA,ORANG NYA BAIK**"
+            "**TINGGAL NYA DI JAWA, BTW ORANG JAWA GANTENG GANTENG DAN THEBEST POKOK NYA AWWHHHH**"
             "**KALO MAU FORK REPONYA,IZIN DULU KE ORANG NYA YA GENGSSS**"
             "**POKOK NYA OWNER NYA THEBEST BANGET SERIUSSSSS**"
-            "**UDAH POKOK NYA ITU AJA SIH,INTINYA OWNER NYA GANTENG DAN BAIK PARAH**"]
+            "**UDAH POKOK NYA ITU AJA SIH,INTINYA OWNER NYA GANTENG DAN BAIK PARAH🗿**"]
 
         for i in animation_ttl:
 
