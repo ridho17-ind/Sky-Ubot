@@ -19,7 +19,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.gjm(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GAK, JANGAN MAKSA YA BABI!!**")
+    await typew.edit("**GAK, JANGAN MAKSA YA BANGKE!!**")
 
 
 @register(outgoing=True, pattern='^.l(?: |$)(.*)')
@@ -55,7 +55,9 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.gjb(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GAJELAS BABI....**")
+    await typew.edit("**Gak, Lu Yatim Soalnya😭....**")
+    sleep(2)
+    await typew.edit("Canda Bangke Ahhhhhh, Parah Lu🗿...")
 
 
 @register(outgoing=True, pattern='^.gjk(?: |$)(.*)')
@@ -115,7 +117,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.loh(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GC SAMPAH KAYA GINI, BUBARIN AJA PLIS!!🤣**")
+    await typew.edit("**GC SAMPAH KAYA GINI, BUBARIN AJA PLIS WKWKWKWK!!🤣**")
 
 CMD_HELP.update({
     "salam3":
