@@ -351,7 +351,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```║🔰SKY-USERBOT TELAH AKTIF🔰║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda Cek Viewlogs\nPada heroku Anda🗿.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```")
+    await bot.send_message(BOTLOG_CHATID, "```║🔰SKY-USERBOT TELAH AKTIF🔰║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda Cek Viewlogs\nPada heroku Anda Ahahaha🗿.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```")
     return
 
 with bot:
@@ -423,12 +423,12 @@ with bot:
         dugmeler = CMD_HELP
         me = bot.get_me()
         uid = me.id
-        logo = "https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg"
+        logo = "https://telegra.ph/file/94c64caff661b874aa74a.jpg"
 
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("\n⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/Ramadhani892)")
+                await event.reply("\n⭐Sky-Ubot⭐, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/ridho17-ind)")
             else:
                 await event.reply(f"`Hai {DEFAULTUSER}\n\nApa Kabarmu ? 😊`")
 
@@ -444,7 +444,7 @@ with bot:
                     text="{}"
                     f"\n\n**𝙿𝙴𝙼𝙸𝙻𝙸𝙺 𝙱𝙾𝚃 : {DEFAULTUSER}**\n\n"
                     " **𝙼𝙾𝙳𝚄𝙻𝙴𝚂 :** `{}`\n **𝚂𝙴𝙼𝚄𝙰 𝙼𝙴𝙽𝚄 :** \n".format(
-                        "** ━━━━━━❖━━━━━━\n    ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n ━━━━━━❖━━━━━━ **",
+                        "** ━━━━━━❖━━━━━━\n    ⭐Sky-Ubot⭐\n ━━━━━━❖━━━━━━ **",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -452,22 +452,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ━━━━━━❖━━━━━━\n    ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n ━━━━━━❖━━━━━━ ",
+                    "Bantuan Dari ━━━━━━❖━━━━━━\n    ⭐Sky-Ubot⭐\n ━━━━━━❖━━━━━━ ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ━━━━━━❖━━━━━━\n     ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n ━━━━━━❖━━━━━━ ",
-                    text="""╭✠╼━━━━━━❖━━━━━━━✠╮\n**Anda Bisa Membuat \n⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n Anda Sendiri Dengan Cara :**\n __Tekan Dibawah Ini__ 👇\n╰✠╼━━━━━━❖━━━━━━━✠╯""",
+                    " ━━━━━━❖━━━━━━\n     ⭐Sky-Ubot⭐\n ━━━━━━❖━━━━━━ ",
+                    text="""╭✠╼━━━━━━❖━━━━━━━✠╮\n**Anda Bisa Membuat \n⭐Sky-Ubot⭐\n Anda Sendiri Dengan Cara :**\n __Tekan Dibawah Ini__ 👇\n╰✠╼━━━━━━❖━━━━━━━✠╯""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐",
-                                "https://github.com/ramadhani892/RAM-UBOT"),
+                                "⭐Sky-Ubot⭐",
+                                "https://github.com/ridho17-ind/Sky-Ubot"),
                             custom.Button.url(
-                                "⭐𝗢𝗪𝗡𝗘𝗥⭐",
-                                "t.me/ramubotinfo")]],
+                                "⭐GROUPS⭐",
+                                "t.me/mengvirtual_gc")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
