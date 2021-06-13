@@ -68,7 +68,7 @@ async def koc(e):
         sleep(1)
         await e.edit("MAU GAK JADI PACAR GUA??")
         sleep(1)
-        await e.edit("**TAPI BOONG TOD!!"*")
+        await e.edit("**TAPI BOONG TOD!!**")
 
 
 @register(outgoing=True, pattern='^.huh(?: |$)(.*)')
