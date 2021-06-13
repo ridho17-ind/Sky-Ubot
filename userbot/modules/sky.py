@@ -38,7 +38,7 @@ async def typewriter(typew):
 
 @register(outgoing=True, pattern='^.geez(?: |$)(.*)')
 async def typewriter(typew):
-    typew.pattern_match.group(2)
+    typew.pattern_match.group(1)
     await typew.edit("**Afreal Stres☑️**")
     await typew.edit("**Afreal Stres✅**")
     sleep(3)
